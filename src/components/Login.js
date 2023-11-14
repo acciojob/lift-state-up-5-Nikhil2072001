@@ -29,9 +29,9 @@ const Login = (isLoggedIn, setIsLoggedIn) => {
             <label htmlFor="password">Password</label>
             <input
               type="password"
-              id="password"
+id="password"
               name="password"
-              value={data.password}
+                            value={data.password}
               onChange={handleChange}
             />
           </div>
