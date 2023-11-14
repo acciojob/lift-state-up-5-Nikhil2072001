@@ -7,8 +7,11 @@ const Login = (isLoggedIn, setIsLoggedIn) => {
   // }
   const handleChange = (e) => {
     console.log(e.target, e.target.name);
+    console.log("");
     setData({ ...data, [e.target.name]: e.target.value });
   };
+
+
   return (
     <div>
       {isLoggedIn ? (
